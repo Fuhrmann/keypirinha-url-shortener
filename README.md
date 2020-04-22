@@ -43,9 +43,9 @@ Open Keypirinha and type 'URL Shortener'. There are three catalog items implemen
 
 ```
 # Here you can specify the main service used to shorten the url
-# Accepted values: google, tinyurl, isgood, bitly
-# * Default: google
-main_service = google
+# Accepted values: tinyurl, isgood, bitly
+# * Default: tinyurl
+main_service = tinyurl
 
 # Enabling history will allow you to see all your shortened urls
 # * Default: yes
@@ -53,12 +53,14 @@ enable_history=yes
 ```
 
 ## Suported services
-- **Google (default, http://goo.lg)** - This plugin already ships with a Google URL Shortener API key. This is my own personal key. All short URLs are public. You are not required, but you can create your own API KEY if for some reason this service stop working. 
 - **TinyURL (http://tinyurl.com)** - No further configuration necessary.
 - **is.gd (http://is.gd)** - No further configuration necessary.
 - **Bitly (http://bit.ly)** - An API key is required. Generate an API KEY on [bit.ly's website](https://bitly.com/a/oauth_apps).
 
 ## Change Log
+### v1.1
+* Remove google from the list of services
+
 ### v1.0
 * Released
 

@@ -11,9 +11,7 @@ import keypirinha_util as kpu
 from .history import History
 from .services.bitly import Bitly
 from .services.goodis import GoodIs
-from .services.google import Google
 from .services.tinyurl import TinyURL
-
 
 class URLShortener(kp.Plugin):
     # The keypirinha's category that represents a shortened URL
@@ -22,14 +20,13 @@ class URLShortener(kp.Plugin):
     # The keypirinha's category that represents a entry in the user's history
     ITEM_HISTORY = kp.ItemCategory.USER_BASE + 2
     services = {
-        'google': Google,
         'tinyurl': TinyURL,
         'isgood': GoodIs,
         'bitly': Bitly,
     }
 
     # Default service used to shorten urls
-    DEFAULT_MAIN_SERVICE = 'google'
+    DEFAULT_MAIN_SERVICE = 'tinyurl'
 
     def __init__(self):
         super().__init__()
