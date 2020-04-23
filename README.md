@@ -60,6 +60,7 @@ enable_history=yes
 ## Change Log
 ### v1.1
 * Remove google from the list of services
+* Update isgood url service.
 
 ### v1.0
 * Released
