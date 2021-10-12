@@ -12,6 +12,7 @@ from .history import History
 from .services.bitly import Bitly
 from .services.goodis import GoodIs
 from .services.tinyurl import TinyURL
+from .services.shlink import Shlink
 
 class URLShortener(kp.Plugin):
     # The keypirinha's category that represents a shortened URL
@@ -23,6 +24,7 @@ class URLShortener(kp.Plugin):
         'tinyurl': TinyURL,
         'isgood': GoodIs,
         'bitly': Bitly,
+        'shlink': Shlink,
     }
 
     # Default service used to shorten urls

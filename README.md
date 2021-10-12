@@ -53,11 +53,16 @@ enable_history=yes
 ```
 
 ## Suported services
-- **TinyURL (http://tinyurl.com)** - No further configuration necessary.
-- **is.gd (http://is.gd)** - No further configuration necessary.
-- **Bitly (http://bit.ly)** - An API key is required. Generate an API KEY on [bit.ly's website](https://bitly.com/a/oauth_apps).
+- **TinyURL (https://tinyurl.com)** - No further configuration necessary.
+- **is.gd (https://is.gd)** - No further configuration necessary.
+- **Bitly (https://bit.ly)** - An API key is required. Generate an API KEY on [bit.ly's website](https://bitly.com/a/oauth_apps).
+- **Shlink (https://shlink.io/)** - An API key is required. Generate an API KEY on [shlink's website](https://shlink.io/documentation/api-docs/authentication/).
 
 ## Change Log
+
+### v1.2
+* Add support to Shlink service.
+
 ### v1.1
 * Remove google from the list of services
 * Update isgood url service.
